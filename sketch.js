@@ -13,7 +13,7 @@ function draw() {
   // Draw a grid of diagonal lines
   for(let j = 0; j< height; j+=20){
     for(let i = 0; i < width; i+=80){
-      stroke(i, 0, j, 220);
+      stroke(i, 0, j, 120);
       strokeWeight(5);
 
       // Alternate the direction of the diagonal line
